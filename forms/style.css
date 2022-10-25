@@ -1,0 +1,63 @@
+html {
+
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #997099;
+
+    font-family: 'Georgia', sans-serif;
+}
+
+.container {
+    background-color: #910b93;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+li {
+    list-style: none;
+    font-size: 30px;
+}
+
+a {
+    padding-right: 75px;
+    font-weight: 350;
+    color: #fff;
+
+}
+
+#sub {
+    padding: 0;
+}
+
+a:hover {
+    margin-right: 55px;
+    padding: 15px;
+    color: #ac1b99;
+    background-color: #eee;
+    transition: all .3s;
+
+}
+
+.item {
+    margin: -9px;
+    padding: 25px;
+}
+
+.welcome {
+    background-color: #f0efef;
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+}
+
+h1 {
+
+    font-weight: 500;
+    color: #2e1732;
+    letter-spacing: 5px;
+    transition: all .2s;
+}
